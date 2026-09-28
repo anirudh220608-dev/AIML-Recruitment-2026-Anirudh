@@ -1,7 +1,6 @@
-# AI/ML Recruitment 2026 - First Year
+# AI/ML Recruitment Task - First Year
 
-**Name:** [Your name]  
-**Basic details:** [Add the details requested by the recruitment team]
+**Name:** Anirudh
 
 ## Tasks completed
 
@@ -14,17 +13,12 @@ Explore and clean the Auto MPG dataset, then use vehicle characteristics to pred
 
 ## Approach
 
-I inspected the columns, checked for missing values and duplicates, filled missing horsepower values with the median, and removed exact duplicate rows. I explored MPG with plots, compared MPG across cylinder counts and model years, and checked correlations. For Task 2, I tried a weight-only model and a multiple-feature linear regression model. Origin is one-hot encoded, and car name is not used as a feature.
+I checked the columns, missing values, and duplicate rows. I filled missing horsepower values with the median and removed exact duplicate rows. I used graphs and summary statistics to explore MPG and compare vehicle groups. For prediction, I tried a weight-only model and a multiple-feature linear regression model. I one-hot encoded origin and left the car name out of the model features.
 
-## Files
+## Notebook and data
 
-- `AIML_First_Year_Auto_MPG.ipynb` - Google Colab notebook code
-- `AIML_First_Year_Beginner_Submission.pdf` - Written task submission
-- `auto_mpg_cleaned.csv` - Created when the notebook is run
-
-## Colab link
-
-[Paste the shareable Google Colab link here after setting viewer access.]
+- [Open the notebook in Google Colab](https://colab.research.google.com/github/anirudh220608-dev/AIML-Recruitment-2026-Anirudh/blob/main/AIML_First_Year_Auto_MPG.ipynb)
+- The notebook creates `auto_mpg_cleaned.csv` when run.
 
 ## Technologies used
 
@@ -32,14 +26,14 @@ Python, Google Colab, pandas, NumPy, Matplotlib, Seaborn, and scikit-learn.
 
 ## Results
 
-Run the notebook and add the actual findings, graph observations, and regression scores here. Do not leave this section blank in the final submission.
+Run the notebook from top to bottom to create the graphs and model scores. The notebook includes notes about what to report for Task 1 and Task 2.
 
 ## Key learnings
 
 - I learned how to inspect missing values and duplicate rows.
-- I learned how scatter plots and correlation can show relationships between variables.
+- I learned how plots and correlations can show relationships between variables.
 - I learned how to split data into training and testing sets and evaluate a regression model.
 
 ## Challenge
 
-The car name column is text, and some horsepower values are missing. I kept the car name out of the model features and filled missing horsepower values with the median.
+Some horsepower values were missing, and car names are text. I filled missing horsepower values with the median and did not use car names as model features.
