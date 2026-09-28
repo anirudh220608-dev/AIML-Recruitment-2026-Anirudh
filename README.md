@@ -15,9 +15,10 @@ Explore and clean the Auto MPG dataset, then use vehicle characteristics to pred
 
 I checked the columns, missing values, and duplicate rows. I filled missing horsepower values with the median and removed exact duplicate rows. I used graphs and summary statistics to explore MPG and compare vehicle groups. For prediction, I tried a weight-only model and a multiple-feature linear regression model. I one-hot encoded origin and left the car name out of the model features.
 
-## Notebook and data
+## Notebook and files
 
 - [Open the notebook in Google Colab](https://colab.research.google.com/github/anirudh220608-dev/AIML-Recruitment-2026-Anirudh/blob/main/AIML_First_Year_Auto_MPG.ipynb)
+- [Written submission PDF](AIML_First_Year_Beginner_Submission.pdf)
 - The notebook creates `auto_mpg_cleaned.csv` when run.
 
 ## Technologies used
@@ -26,7 +27,7 @@ Python, Google Colab, pandas, NumPy, Matplotlib, Seaborn, and scikit-learn.
 
 ## Results
 
-Run the notebook from top to bottom to create the graphs and model scores. The notebook includes notes about what to report for Task 1 and Task 2.
+Run the notebook from top to bottom to create the graphs and model scores. Add the actual findings and evaluation values here after running it.
 
 ## Key learnings
 
